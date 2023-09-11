@@ -1,0 +1,51 @@
+@import 'src/themes/theme.scss';
+.login-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .titulo{
+        font-size: $font-size34;
+        font-weight:bold ;
+        width: fit-content;
+        text-align: center;
+        margin-bottom: $padding16;
+    }
+
+    .titulo-intro{
+        font-size: $font-size24;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .olvido-label{
+        font-size: $font-size16;
+        color: $blue-color;
+        text-align: center;
+    }
+
+    .alternativa{
+        font-weight: 500;
+        span{
+            color: $blue-color;
+        }
+    }
+
+    .or-line-divider{
+        border: $thin-border;
+        position: relative;
+        p{
+            position: absolute;
+            background: white;
+            width: 30px;
+            top: -25%;
+        }
+    }
+    .login-content{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+}
